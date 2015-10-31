@@ -1,1 +1,27 @@
 baseurl: 
+title:            Scribble
+description:      A jekyll theme. Because I scribble.
+url:              # Site url.
+signoff:          Delin Li
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         About
+    url:          
+  - name:         LinkedIn
+    url:          https://www.linkedin.com/in/delin
+    external:     true
+  - name:         Email
+    url:          mailto:delin.bio@gmail.com
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/DelinLi
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
