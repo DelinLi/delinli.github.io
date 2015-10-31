@@ -1,4 +1,4 @@
-###Method1
+###Method 1
 <pre>
 return=`ps -u Data2Bio | grep "SCREEN -d -m ssh -C2qTnN -[D] 8080 username@**.***.**.*"`
 echo $return
