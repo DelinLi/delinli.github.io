@@ -5,4 +5,4 @@ title: Hello, World!
 
 Powered By [GitHub Pages](https://pages.github.com/)
 
-![image](../pic/gl13.png)
+![](https://raw.github.com/DelinLi/delinli.github.io/master/pic/gl13.png)
