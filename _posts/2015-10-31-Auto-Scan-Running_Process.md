@@ -1,3 +1,7 @@
+---
+layout:  null
+title:  Keep running of a process via Auto scan
+---
 ###Method 1
 <pre>
 return=`ps -u Data2Bio | grep "SCREEN -d -m ssh -C2qTnN -[D] 8080 username@**.***.**.*"`

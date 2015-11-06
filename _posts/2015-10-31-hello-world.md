@@ -1,5 +1,5 @@
 ---
-layout: 2015 10 31
+layout: null
 title: Hello, World!
 ---
 
