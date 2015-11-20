@@ -26,10 +26,10 @@ then
 fi
 </pre>
 
-**Secondly**, run this script every one minutes with **crontab**. Open the crontab via `crontab -e` to add sentence below, save and exit. 
+**Secondly**, run this script every one minutes with **crontab**. Open the crontab via `crontab -e` to add sentence below, save and exit. Please replace `ThePath` with your own one.
 open
 <pre>
-*/1 * * * * screen -d -m sh /Users/Delin/Documents/GitHub/Bioinfo_Delin/Scripts_Tools/Running.Check.sh
+*/1 * * * * screen -d -m sh ThePath/Running.Check.sh
 </pre>
 
 You are all set to let the socks5 tunnel open once you can access your server.
