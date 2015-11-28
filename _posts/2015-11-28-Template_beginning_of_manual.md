@@ -1,4 +1,6 @@
 The template for begining of my manual:
+
+
 <pre>
 <div align="right"><h4><font color="#FF0000">XXX ONLY</font></h4></div>
 
