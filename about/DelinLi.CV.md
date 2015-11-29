@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="file:/Users/Delin/Documents/GitHub/delinli.github.io/pic/delin.jpg" width = "100" height = "120" alt="" align=right />
+<img src="https://delinli.github.io/pic/delin.jpg" width = "100" height = "120" alt="" align=right />
 </div>
 ##Delin Li:
 No. 2 Yuanmingyuan West Road, Haidian Distract, Beijing, 100193. CHN    
