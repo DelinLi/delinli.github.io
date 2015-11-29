@@ -6,7 +6,7 @@
 No. 2 Yuanmingyuan West Road, Haidian Distract, Beijing, 100193. CHN    
 Email: delin.bio@gmail.com | Phone: +86-15010543551    
 [Github](https://github.com/DelinLi) | [LinedkIn](https://cn.linkedin.com/in/delin)    
-CV [download]()  
+CV [download](https://delinli.github.io/about/Delin_Li.CV.pdf)  
 
 ##EDUCATION
 *** 
