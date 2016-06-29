@@ -11,3 +11,10 @@
 **3** Sed    
 	
 	#TAB invoke <TAB> by hitting Control+v followed by the TAB key. This may alternatively be achieved by hitting Control+v followd by Control+i,i
+	
+**4** Order lines based on their duplicated time    
+	
+	sort input.txt | unique -c | sort -rn | cut -c 9-
+	#unique -c make statistic among duplicated time of each line
+	#sort -rn recognize the number, and order them (-r , in decreasing order)
+	#cut -c 9- , lenght of dupiclated number account for 8 charactor, thiscould get >= 9th charactors
