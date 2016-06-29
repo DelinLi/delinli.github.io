@@ -3,7 +3,7 @@ The Japan VPS will be better than USA's, however the comunicate will be easier b
 USA Linode https://www.linode.com/
 Japan Conoha https://www.conoha.jp/
 
-#####2. install shadowsocks ()Debian/Ubuntu
+#####2. install shadowsocks (Debian/Ubuntu)  
 `apt-get install python-pip  `   
 `pip install shadowsocks `
 
@@ -41,9 +41,11 @@ Japan Conoha https://www.conoha.jp/
 
 #####3. start shadowsocks
 **Start**   
-ssserver -c /etc/shadowsocks.json -d start  
+`ssserver -c /etc/shadowsocks.json -d start`  
 **Stop**   
-ssserver -c /etc/shadowsocks.json -d stop   
+`ssserver -c /etc/shadowsocks.json -d stop`  
+**monitor**  
+`netstat -natulp | egrep 838[1-5] | grep -E "tcp.*ESTABLISHED" | awk '{print $4, $5}' | cut -d: -f2 | sort -u `
 
 **Multiple shadowsocks.** *i.e. IPV4 & IPV6*  
 ssserver -c your-path-to-config4.json -d start --pid-file ss1.pid  
