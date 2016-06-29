@@ -1,7 +1,7 @@
 #####1. buy a VPS and set up  
-The Japan VPS will be better than USA's, however the comunicate will be easier between us and the one can talk in English
-USA Linode https://www.linode.com/
-Japan Conoha https://www.conoha.jp/
+The Japan VPS will be better than USA's, however the comunicate will be easier between us and the one can talk in English  
+USA Linode https://www.linode.com/  
+Japan Conoha https://www.conoha.jp/  
 
 #####2. install shadowsocks (Debian/Ubuntu)  
 `apt-get install python-pip  `   
@@ -26,6 +26,7 @@ Japan Conoha https://www.conoha.jp/
    "method":"aes-256-cfb",
    "fast_open": false
 }
+
 #single user
 { 
    "server":"45.79.153.XX", 
