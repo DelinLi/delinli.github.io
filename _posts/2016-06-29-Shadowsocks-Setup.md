@@ -1,4 +1,4 @@
-#####1. buy a VPS and set up
+#####1. buy a VPS and set up  
 The Japan VPS will be better than USA's, however the comunicate will be easier between us and the one can talk in English
 USA Linode https://www.linode.com/
 Japan Conoha https://www.conoha.jp/
@@ -39,7 +39,7 @@ Japan Conoha https://www.conoha.jp/
    
 </pre>
 
-#####3. start shadowsocks
+#####3. start shadowsocks  
 **Start**   
 `ssserver -c /etc/shadowsocks.json -d start`  
 **Stop**   
@@ -48,10 +48,10 @@ Japan Conoha https://www.conoha.jp/
 `netstat -natulp | egrep 838[1-5] | grep -E "tcp.*ESTABLISHED" | awk '{print $4, $5}' | cut -d: -f2 | sort -u `
 
 **Multiple shadowsocks.** *i.e. IPV4 & IPV6*  
-ssserver -c your-path-to-config4.json -d start --pid-file ss1.pid  
-ssserver -c your-path-to-config6.json -d start --pid-file ss2.pid
+`ssserver -c your-path-to-config4.json -d start --pid-file ss1.pid`   
+`ssserver -c your-path-to-config6.json -d start --pid-file ss2.pid`
 
-#####4. Install APP on MAC, Andriod
+#####4. Install APP on MAC, Andriod  
 **For all Clients Mac, Win & Linux**  
 https://shadowsocks.org/en/download/clients.html  
 **Andriod**  
@@ -59,7 +59,7 @@ google play
 **iOS**  
 App Store  
 
-#####useful source:
+#####useful source:  
 **master one:**   
 http://blog.chinaunix.net/uid-25530360-id-5595974.html   
 **multiple IP**:   
