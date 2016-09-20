@@ -18,7 +18,8 @@
 	sort input.txt | unique -c | sort -rn | cut -c 9-
 	#unique -c make statistic among duplicated time of each line
 	#sort -rn recognize the number, and order them (-r , in decreasing order)
-	#cut -c 9- , lenght of dupiclated number account for 8 charactor, thiscould get >= 9th charactors     
+	#cut -c 9- , lenght of dupiclated number account for 8 charactor, thiscould get >= 9th charactors      
+	  
 **5** run commands lines via seperate screen sessions and track their status
 
 	split -l 1 comands_per_line.sh tem 
@@ -27,7 +28,8 @@
 	do      
 	        sleep 1m
 	done
-	rm tem*     
+	rm tem*          
+	
 **6** re-name a buntch of files with a two column file (old_ID\tNew)
 	
 	while read -r old new 
@@ -48,7 +50,7 @@
         else
                 echo "Error: not two files found for sample $old: ${arr[@]}"
         fi  
-	done< IDs.txt    
+	done< IDs.txt       
 	
 	
 
