@@ -1,0 +1,32 @@
+<p>####I’m assuming you are using a Mac or linux device. Strategy below will not work under a PC with win systems</p>
+
+<p><strong>Firstly</strong>, create a script ,like <code class="highlighter-rouge">Running.Check.sh</code>,with either method 1 or method 2. They both work for make sure the tunnel of socks5 is running.</p>
+
+<p>###Method 1</p>
+<pre>
+return=`ps -u Data2Bio | grep "SCREEN -d -m ssh -C2qTnN -[D] 8080 username@**.***.**.*"`
+echo $return
+if [ ${#return} -eq 0 ] 
+then
+        screen -d -m ssh  -C2qTnN -D 8080  username@**.***.**.*
+fi
+</pre>
+
+<p>###Method 2</p>
+<pre>
+Status=$(ps -A | grep -w "C2qTnN" | grep "ssh")
+echo $Status
+if ! [ -n "$Status" ]
+then
+        ssh -C2qTnN -D 8080 username@**.***.**.*
+fi
+</pre>
+
+<p><strong>Secondly</strong>, run this script every one minutes with <strong>crontab</strong>. Open the crontab via <code class="highlighter-rouge">crontab -e</code> to add sentence below, save and exit. Please replace <code class="highlighter-rouge">ThePath</code> with your own one.
+open</p>
+<pre>
+*/1 * * * * screen -d -m sh ThePath/Running.Check.sh
+</pre>
+
+<p>You are all set to let the socks5 tunnel open once you can access your server.</p>
+

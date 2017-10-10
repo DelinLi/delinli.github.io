@@ -1,27 +1,29 @@
-baseurl: 
-title:            Scribble
-description:      A jekyll theme. Because I scribble.
-url:              # Site url.
-signoff:          Delin Li
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+# Jekyll configuration
 
-links:
-  - name:         About
-    url:          
-  - name:         LinkedIn
-    url:          https://www.linkedin.com/in/delin
-    external:     true
-  - name:         Email
-    url:          mailto:delin.bio@gmail.com
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/DelinLi
-    external:     true
-highlighter:      rouge
-permalink:        pretty
-markdown:         kramdown
-redcarpet:
-  extensions:
-    - smart
+name: Delin' Note #'
+description: A bioinfomatics, try to read the code of nature -- DNA！
+
+# url is currently only used only for the RSS feed in feed.xml
+url: 
+
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+baseurl: ''
+## default date_format
+date_format: 
+  title: "%B-%-d-%Y"
+  archive: "%b"
+  categories: "%b-%Y"
+  tag: "%b-%Y"
+# Language
+lan: "en" 
+
+paginate: 10
+
+highlighter: rouge
+markdown: kramdown
+gems: ['jekyll-paginate']
+
+exclude: ['README.md', 'LICENSE', "*.bak"]

@@ -1,0 +1,20 @@
+<h3 id="build-of-tree-via-tassel">Build of Tree via Tassel</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>~/softwares/tasseladmin-tassel-5-standalone-168dac0ed0ac/run_pipeline.pl   -h CML512.nonhigh.samples.LMD50.txt   -tree Neighbor     -treeSaveDistance  true  -export CML512.nonhigh.samples.tree.nj.txt -exportType Text
+</code></pre>
+</div>
+
+<p>###Comapre of Tree</p>
+<pre>
+library("ape")
+
+A&lt;-read.tree(newickfile of tree A)
+
+B&lt;-read.tree(newickfile of tree B)
+B &lt;- rotateConstr(B, A$tip.label)
+X &lt;- cbind(B$tip.label, B$tip.label) # association matrix
+## before reordering tr2 we have to find the constraint:
+co &lt;- B$tip.label[order(match(B$tip.label, A$tip.label))]
+
+newtr2 &lt;- rotateConstr(B, co)
+cophyloplot(A, newtr2, assoc = X, space = 48,font=1,cex=0.6)
+</pre>

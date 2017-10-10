@@ -1,0 +1,7 @@
+<p>###Local BLAST</p>
+
+<p>####Step I. Build the database  <br />
+	makeblastdb -in db.fasta -dbtype prot/nucl -parse_seqids -out dbname</p>
+
+<p>####Step II. BLAST (N/P/X…)  <br />
+	blastn  -query seq.fasta -out seq.blast -db GL -outfmt 6 -evalue 1e-10 -max_target_seqs 2 -num_threads 1</p>
