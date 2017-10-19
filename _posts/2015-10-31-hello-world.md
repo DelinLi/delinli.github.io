@@ -1,7 +1,4 @@
----
-layout: null
-title: Hello, World!
----
+
 
 Powered By [GitHub Pages](https://pages.github.com/)
 

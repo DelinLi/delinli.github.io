@@ -1,7 +1,4 @@
----
-layout:  null
-title:  Keep running of a process via Auto scan
----
+
 ####I'm assuming you are using a Mac or linux device. Strategy below will not work under a PC with win systems
 
 **Firstly**, create a script ,like `Running.Check.sh`,with either method 1 or method 2. They both work for make sure the tunnel of socks5 is running.
