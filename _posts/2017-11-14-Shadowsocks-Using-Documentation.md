@@ -1,4 +1,5 @@
-###  [Shadowsocks](https://github.com/shadowsocks)    
+###  [Shadowsocks](https://github.com/shadowsocks)  
+**用于作者本人同朋友间分享用**
 
 ####  背景知识
 shadowsocks是一种socks5的代理，而socks5的代理服务器则是把你的网络数据请求通过一条连接你和代理服务器之间的通道，由服务器转发到目的地。你没有加入任何新的网络，只是http/socks数据经过代理服务器的转发送出，并从代理服务器接收回应。    
