@@ -1,4 +1,4 @@
-### Daily Used Commands for Linux
+###Daily Used Commands for Linux
 
 *1.* Check the CPU number: 
 
@@ -15,7 +15,7 @@
 	
 *4.* Split a centence into items
 <pre>
-# !/bin/bash
+#!/bin/bash
 
 str="hello,world,i,like,you,babalala"
 arr=(${str//,/ })

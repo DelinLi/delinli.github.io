@@ -3,11 +3,11 @@ Socks5 technology + an account of server with an oversea IP could help you visit
 
 **Reference**: [Proxy Firefox through a SSH tunnel](https://calomel.org/firefox_ssh_proxy.html)
 
-### Requirement 
+###Requirement 
 	A server account with oversea IP
 	Firefox web-brower (but not restricted to)
 
-### Steps [on Mac ]
+###Steps [on Mac ]
 1. `ssh -C2qTnN -D 8080 user@IP`
 2. Set up Firefox   
 	![Firefox](/pic/Firefox.png "Firefox Preference")
