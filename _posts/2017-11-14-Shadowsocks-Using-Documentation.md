@@ -30,10 +30,10 @@ Password: XXXXX
 
 
 #### Mac上设置示例：    
-![OnMac](/pic/shadowsocks.mac.png | width=100)    
+![OnMac](/pic/shadowsocks.mac.png){:height="50%" width="50%"}    
 进入Sever Preferences,填写账号信息即可。   
 ####  Iphone 上设置示例：
-![OnIphone](/pic/shadowsocks.iphone.jpeg | width=120) 
+![OnIphone](/pic/shadowsocks.iphone.jpeg){:height="50%" width="50%"}
 点击右上侧➕即可进入设置页面，填写必填选项即可。    
 
 ####  DropBox客户端的设置    
