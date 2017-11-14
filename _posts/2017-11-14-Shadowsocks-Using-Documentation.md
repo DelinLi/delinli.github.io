@@ -30,7 +30,7 @@ Password: XXXXX
 
 
 #### Mac上设置示例：    
-![OnMac](/pic/shadowsocks.mac.png =100x140)    
+![OnMac](/pic/shadowsocks.mac.png )    
 进入Sever Preferences,填写账号信息即可。   
 ####  Iphone 上设置示例：
 ![OnIphone](/pic/shadowsocks.iphone.jpeg =120x200)     
