@@ -33,11 +33,11 @@ Password: XXXXX
 ![OnMac](/pic/shadowsocks.mac.png | width=100)    
 进入Sever Preferences,填写账号信息即可。   
 ####  Iphone 上设置示例：
-![OnIphone](/pic/shadowsocks.iphone.jpeg){:height="200" width="120"}    
+![OnIphone](/pic/shadowsocks.iphone.jpeg | width=120) 
 点击右上侧➕即可进入设置页面，填写必填选项即可。    
 
 ####  DropBox客户端的设置    
 作为少有的需要额外设置的软件--DropBox需要在其Preferences->Network中更改设置如下：    
 *频繁的开关shadowsocks客户端或更换模式会导致Dropbox停止同步，此时只需重启dropbox*    
-![OnMacDropbox](/pic/Dropbox_shadowscokets.png =200x140)
+![OnMacDropbox](/pic/Dropbox_shadowscokets.png){:height="50%" width="50%"}   
 
