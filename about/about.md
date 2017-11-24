@@ -7,9 +7,7 @@ permalink: about.html
 ## Delin Li    
 ----------
 
-Email: delin.bio@gmail.com
-[LinedkIn](https://www.linkedin.com/in/delin)
-[Github](https://github.com/DelinLi)
+Email: delin.bio@gmail.com | [LinedkIn](https://www.linkedin.com/in/delin) | [Github](https://github.com/DelinLi)   
 
 
 ## EDUCATION
