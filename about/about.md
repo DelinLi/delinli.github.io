@@ -4,14 +4,12 @@ permalink: about.html
 ---
 
 
-## Delin Li
-=========  
+## Delin Li    
+----------
 
------------------------------       -------------------------
-No. 2 Yuanmingyuan West Road,		Email: delin.bio@gmail.com
-Haidian Distract,					[LinedkIn](https://www.linkedin.com/in/delin)
-Beijing, 100193. CHN    			[Github](https://github.com/DelinLi)
------------------------------		--------------------------
+Email: delin.bio@gmail.com
+[LinedkIn](https://www.linkedin.com/in/delin)
+[Github](https://github.com/DelinLi)
 
 
 ## EDUCATION
