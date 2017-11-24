@@ -24,11 +24,16 @@ CV [download](https://delinli.github.io/about/Delin_Li.CV.pdf)
 
 ##Experience
 ***
-+ 2015-Present Senior Bioinformatics Engineer. [Data2Bio](http://www.data2bio.com/)
++ 2016-Present Director of Bioinformatics and Site Manager. [Data2Bio](http://www.data2bio.com/)
+	- GWAS
+	- Genome Prediction
+	- Fast Mapping
++ 2015-2016 Senior Bioinformatics Engineer. [Data2Bio](http://www.data2bio.com/)
 	- GWAS
 	- Fast Mapping
 + 2013-2015 Bioinformatics Engineer. [Data2Bio](http://www.data2bio.com/)
 	- GWAS
+	- RNA-Seq
 	- Fast Mapping
 
 ##Technical
