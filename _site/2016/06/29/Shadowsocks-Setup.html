@@ -1,16 +1,16 @@
-<p>#####1. buy a VPS and set up<br />
-The Japan VPS will be better than USA’s, however the comunicate will be easier between us and the one can talk in English<br />
+<h5 id="1-buy-a-vps-and-set-up">1. buy a VPS and set up</h5>
+<p>The Japan VPS will be better than USA’s, however the comunicate will be easier between us and the one can talk in English<br />
 USA Linode https://www.linode.com/<br />
 Japan Conoha https://www.conoha.jp/</p>
 
-<p>#####2. install shadowsocks (Debian/Ubuntu)<br />
-<code class="highlighter-rouge">apt-get install python-pip  </code> <br />
+<h5 id="2-install-shadowsocks-debianubuntu">2. install shadowsocks (Debian/Ubuntu)</h5>
+<p><code class="highlighter-rouge">apt-get install python-pip  </code> <br />
 <code class="highlighter-rouge">pip install shadowsocks </code></p>
 
 <p><strong>my shadowsocks.json file</strong></p>
 <pre>
 
-#multiple users
+# multiple users
 {
    "server":"45.79.153.XX",
    "port_password": {
@@ -27,7 +27,7 @@ Japan Conoha https://www.conoha.jp/</p>
    "fast_open": false
 }
 
-#single user
+# single user
 { 
    "server":"45.79.153.XX", 
    "server_port":25X, 
@@ -40,8 +40,8 @@ Japan Conoha https://www.conoha.jp/</p>
    
 </pre>
 
-<p>#####3. start shadowsocks<br />
-<strong>Start</strong> <br />
+<h5 id="3-start-shadowsocks">3. start shadowsocks</h5>
+<p><strong>Start</strong> <br />
 <code class="highlighter-rouge">ssserver -c /etc/shadowsocks.json -d start</code><br />
 <strong>Stop</strong> <br />
 <code class="highlighter-rouge">ssserver -c /etc/shadowsocks.json -d stop</code><br />
@@ -52,22 +52,22 @@ Japan Conoha https://www.conoha.jp/</p>
 <code class="highlighter-rouge">ssserver -c your-path-to-config4.json -d start --pid-file ss1.pid</code> <br />
 <code class="highlighter-rouge">ssserver -c your-path-to-config6.json -d start --pid-file ss2.pid</code></p>
 
-<p>#####4. Install APP on MAC, Andriod<br />
-<strong>For all Clients Mac, Win &amp; Linux</strong><br />
+<h5 id="4-install-app-on-mac-andriod">4. Install APP on MAC, Andriod</h5>
+<p><strong>For all Clients Mac, Win &amp; Linux</strong><br />
 https://shadowsocks.org/en/download/clients.html<br />
 <strong>Andriod</strong><br />
 google play<br />
 <strong>iOS</strong><br />
 App Store</p>
 
-<p>#####5. FireWall to ensuresecurity <br />
-<strong>Fail2ban</strong><br />
+<h5 id="5-firewall-to-ensuresecurity">5. FireWall to ensuresecurity</h5>
+<p><strong>Fail2ban</strong><br />
 <code class="highlighter-rouge">apt-get install fail2ban</code><br />
 <code class="highlighter-rouge">service fail2ban start</code> <br />
 http://netsecurity.51cto.com/art/201406/442562.htm</p>
 
-<p>#####useful source:<br />
-<strong>master one:</strong> <br />
+<h5 id="useful-source">useful source:</h5>
+<p><strong>master one:</strong> <br />
 http://blog.chinaunix.net/uid-25530360-id-5595974.html <br />
 <strong>multiple IP</strong>: <br />
 https://www.6zou.net/tech/shadowsocks-multiple-ips-outbound-with-iptables-how-to.html<br />

@@ -1,7 +1,9 @@
-<p>###Local BLAST</p>
+<h3 id="local-blast">Local BLAST</h3>
 
-<p>####Step I. Build the database  <br />
-	makeblastdb -in db.fasta -dbtype prot/nucl -parse_seqids -out dbname</p>
+<h4 id="step-i-build-the-database">Step I. Build the database</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>makeblastdb -in db.fasta -dbtype prot/nucl -parse_seqids -out dbname
+</code></pre></div></div>
 
-<p>####Step II. BLAST (N/P/X…)  <br />
-	blastn  -query seq.fasta -out seq.blast -db GL -outfmt 6 -evalue 1e-10 -max_target_seqs 2 -num_threads 1</p>
+<h4 id="step-ii-blast-npx">Step II. BLAST (N/P/X…)</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>blastn  -query seq.fasta -out seq.blast -db GL -outfmt 6 -evalue 1e-10 -max_target_seqs 2 -num_threads 1
+</code></pre></div></div>

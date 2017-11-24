@@ -1,27 +1,24 @@
-<p>###Daily Used Commands for Linux</p>
+<h3 id="daily-used-commands-for-linux">Daily Used Commands for Linux</h3>
 
 <p><em>1.</em> Check the CPU number:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>cat /proc/cpuinfo |grep "processor"|sort -u|wc -l
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cat /proc/cpuinfo |grep "processor"|sort -u|wc -l
+</code></pre></div></div>
 
 <p><em>2.</em> Add a user account named <code class="highlighter-rouge">DL</code></p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>useradd -d /home/DL -m DL -s /bin/sh -g Bio -G adm -p changeyourpw
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>useradd -d /home/DL -m DL -s /bin/sh -g Bio -G adm -p changeyourpw
+</code></pre></div></div>
 
 <p><em>3.</em> only list the foders/folders with <code class="highlighter-rouge">ls</code></p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>ls -F|grep /$ | grep ^Geno  # --&gt;only list the foders
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ls -F|grep /$ | grep ^Geno  # --&gt;only list the foders
 ls -F | grep "[^/]$" 		# --&gt; will only list the files
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><em>4.</em> Split a centence into items</p>
 <pre>
-#!/bin/bash
+# !/bin/bash
 
 str="hello,world,i,like,you,babalala"
 arr=(${str//,/ })
@@ -34,6 +31,5 @@ done
 
 <p><em>5.</em> FASTQ to FASTA format</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>zcat input_file.fastq.gz | awk 'NR%4==1{printf "&gt;%s\n", substr($0,2)}NR%4==2{print}' &gt; output_file.fa
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>zcat input_file.fastq.gz | awk 'NR%4==1{printf "&gt;%s\n", substr($0,2)}NR%4==2{print}' &gt; output_file.fa
+</code></pre></div></div>

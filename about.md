@@ -1,3 +1,7 @@
+---
+title: About
+permalink: about.html
+---
 
 <div align="center">
 <img src="https://delinli.github.io/pic/delin.jpg" width = "100" height = "120" alt="" align=right />

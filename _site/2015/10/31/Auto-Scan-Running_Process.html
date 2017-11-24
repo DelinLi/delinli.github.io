@@ -1,8 +1,9 @@
-<p>####I’m assuming you are using a Mac or linux device. Strategy below will not work under a PC with win systems</p>
+
+<h4 id="im-assuming-you-are-using-a-mac-or-linux-device-strategy-below-will-not-work-under-a-pc-with-win-systems">I’m assuming you are using a Mac or linux device. Strategy below will not work under a PC with win systems</h4>
 
 <p><strong>Firstly</strong>, create a script ,like <code class="highlighter-rouge">Running.Check.sh</code>,with either method 1 or method 2. They both work for make sure the tunnel of socks5 is running.</p>
 
-<p>###Method 1</p>
+<h3 id="method-1">Method 1</h3>
 <pre>
 return=`ps -u Data2Bio | grep "SCREEN -d -m ssh -C2qTnN -[D] 8080 username@**.***.**.*"`
 echo $return
@@ -12,7 +13,7 @@ then
 fi
 </pre>
 
-<p>###Method 2</p>
+<h3 id="method-2">Method 2</h3>
 <pre>
 Status=$(ps -A | grep -w "C2qTnN" | grep "ssh")
 echo $Status

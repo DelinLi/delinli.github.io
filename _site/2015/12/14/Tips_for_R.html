@@ -1,18 +1,15 @@
 <p><strong>1.</strong> summary table of two column and out as data.frame</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>as.data.frame.matrix(table(MAF.Y[ ,c(3,ncol(MAF.Y))]))
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>as.data.frame.matrix(table(MAF.Y[ ,c(3,ncol(MAF.Y))]))
+</code></pre></div></div>
 
 <p><strong>2.</strong> The non numeric will be NA via</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>is.na(suppressWarnings(as.numeric(as.character(Table.in)))) #Table.in could be array or variable
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>is.na(suppressWarnings(as.numeric(as.character(Table.in)))) #Table.in could be array or variable
 #And the suppressWarnings() will avoid the warning "NAs introduced by coercion"
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><strong>3.</strong> The Axis Lable <code class="highlighter-rouge">(scipen=N)</code></p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Use options (scipen=5) or some other high enough number. The scipen option determines how likely R is to switch to scientific notation, the higher the value the less likely it is to switch. 
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Use options (scipen=5) or some other high enough number. The scipen option determines how likely R is to switch to scientific notation, the higher the value the less likely it is to switch. 
+</code></pre></div></div>

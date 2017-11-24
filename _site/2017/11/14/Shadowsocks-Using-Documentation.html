@@ -1,0 +1,41 @@
+<h2 id="shadowsocks"><a href="https://github.com/shadowsocks">Shadowsocks</a></h2>
+<p><strong>用于作者本人同朋友间分享,也欢迎参考</strong></p>
+
+<h3 id="背景知识">背景知识</h3>
+<p>shadowsocks是一种socks5的代理，而socks5的代理服务器则是把你的网络数据请求通过一条连接你和代理服务器之间的通道，由服务器转发到目的地。你没有加入任何新的网络，只是http/socks数据经过代理服务器的转发送出，并从代理服务器接收回应。</p>
+
+<h3 id="服务器端">服务器端</h3>
+<p>这里我们所用的<strong>代理服务器</strong>位于日本。从16年8月至今运行良好，稳定性强。已经配置好，不需要额外操作。   <br />
+账号信息示例：</p>
+<pre>
+IP:XXX.XXX.XXX.XXX 
+Port: XXX
+Encryption: aes-256-cfb
+Password: XXXXX
+</pre>
+
+<h3 id="客户端下载">客户端下载</h3>
+<p>你只需要在自己的手机和电脑下载客户端<a href="https://shadowsocks.org/en/download/clients.html">https://shadowsocks.org/en/download/clients.html</a>。建议回国的尽可能在国外设置妥当尽量。如果在国内这些软件很可能墙，可以通过百度云盘分享（<em>存在版本略旧的可能性</em>）来下载安装：</p>
+<ol>
+  <li><strong>Mac</strong>，  百度云盘分享链接: <a href="https://pan.baidu.com/s/1c2IY5Ao">https://pan.baidu.com/s/1c2IY5Ao</a>  密码: q31q</li>
+  <li><strong>Iphone</strong>， 需要在APP store中购买shadowrocket应用作为客户端，价格为6RMB。</li>
+  <li><strong>Win</strong>, 百度云盘分享链接: <a href="https://pan.baidu.com/s/1c2tWi0g">https://pan.baidu.com/s/1c2tWi0g</a>  密码: iart</li>
+  <li><strong>Andriod</strong>, 百度云盘分享链接: <a href="https://pan.baidu.com/s/1kVL2jqf">https://pan.baidu.com/s/1kVL2jqf</a>  密码: 3ipy</li>
+</ol>
+
+<h4 id="启用时的两种模式">启用时的两种模式：</h4>
+<p><strong>Auto Proxy Mode</strong>: shadowsocks会根据他自己的GFWList选择是否走<strong>代理服务器</strong>，这极大的保证了在国内访问国内网站的速度的同时可以访问Blocked 网站。  <br />
+<strong>Global Mode</strong>: 但是难免GFWList会有遗漏，这时你需要选择<strong>Global Mode</strong>模式。此时所有的数据都会经过<strong>代理服务器</strong>。在用Mac的Mail发送邮件时往往需要打开此模式。</p>
+
+<h4 id="mac上设置示例">Mac上设置示例：</h4>
+<p><img src="/pic/shadowsocks.mac.png" alt="OnMac" height="50%" width="50%" />  <br />
+进入Sever Preferences,填写账号信息即可。</p>
+<h4 id="iphone-上设置示例">Iphone 上设置示例：</h4>
+<p><img src="/pic/shadowsocks.iphone.jpeg" alt="OnIphone" height="50%" width="50%" /> <br />
+点击右上侧➕即可进入设置页面，填写必填选项即可。</p>
+
+<h4 id="dropbox客户端的设置">DropBox客户端的设置</h4>
+<p>作为少有的需要额外设置的软件–DropBox需要在其Preferences-&gt;Network中更改设置如下：  <br />
+<em>频繁的开关shadowsocks客户端或更换模式会导致Dropbox停止同步，此时只需重启dropbox</em>  <br />
+<img src="/pic/Dropbox_shadowscokets.png" alt="OnMacDropbox" height="50%" width="50%" /></p>
+
