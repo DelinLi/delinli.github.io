@@ -1,6 +1,6 @@
 ---
 title: Publications
-permalink: Publications.html
+permalink: publications
 ---
 
 
