@@ -1,7 +1,7 @@
-[Delin Li's Note book](https://github.com/DelinLi/delinli.github.io)   
+[Delin Li's Note book](https://github.com/DelinLi)   
 ============
 
-I used this as notebook. https://github.com/DelinLi/delinli.github.io
+I used this as notebook. https://github.com/DelinLi
 
 Thanks
 ======
