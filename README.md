@@ -1,13 +1,13 @@
-Delin Li's Note book
+[Delin Li's Note book](https://github.com/DelinLi/delinli.github.io)   
 ============
 
-I used this as notebook.
+I used this as notebook. https://github.com/DelinLi/delinli.github.io
 
 
 Thanks
 ======
-Thanks the simple and clean Jekyll them from [*Jekyll Xixia*](https://github.com/zxixia/jekyll-xixia). Which is distributed and licensed under a
-![License Badge](assets/images/cc_by_88x31.png)
+Thanks the simple and clean Jekyll them from [*Jekyll Xixia*](https://github.com/zxixia/jekyll-xixia). Which is distributed and licensed under a   
+![License Badge](assets/images/cc_by_88x31.png)   
 [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
 
 
