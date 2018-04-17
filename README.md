@@ -3,7 +3,6 @@
 
 I used this as notebook. https://github.com/DelinLi/delinli.github.io
 
-
 Thanks
 ======
 Thanks the simple and clean Jekyll them from [*Jekyll Xixia*](https://github.com/zxixia/jekyll-xixia). Which is distributed and licensed under a   
